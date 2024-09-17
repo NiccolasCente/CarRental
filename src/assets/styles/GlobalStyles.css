@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+
+
+h1,h2,h3,h2,p,nav{
+    font-family: "Cabin", sans-serif;
+
+}
+
+.btn-custom {
+    background-color: #E37310; 
+    color: #ffffff; 
+    border: none; 
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    font-style:italic;
+    font-weight: 600; 
+    cursor: pointer; 
+    margin: 1em;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-custom:hover {
+    background-color: #d46209; 
+  }
+  
+  .nav-right .btn {
+    padding: 0.5rem 1rem; 
+  }
+  
+
+  

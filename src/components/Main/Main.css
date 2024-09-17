@@ -1,0 +1,70 @@
+.main-container {
+  margin-top: 12em; 
+  padding: 0 2em; /* Espaço nas laterais para centralização */
+}
+
+.main-content {
+  text-align: center; 
+  max-width: 1200px; /* Largura máxima para centralização */
+  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estilo para o título principal */
+.main-content h1 {
+  font-size: 3rem; 
+  margin-bottom: 1em; 
+}
+
+.main-content strong {
+  color: #E37310; 
+}
+
+.main-content p {
+  font-size: 1.25rem; 
+  margin-bottom: 2em; 
+  max-width: 700px; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* Estilo dos botões */
+.main-content .btn-custom {
+  padding: 0.75rem 1.5rem; 
+  border-radius: 0.25rem; 
+  font-family: 'Inder', sans-serif;
+  font-weight: 600; 
+  cursor: pointer;
+  text-transform: uppercase; 
+  margin: 0em; 
+  display: inline-block; /* Exibição em linha */
+}
+
+/* Botão primário */
+.btn-primary {
+  background-color: #E37310; 
+  color: #ffffff; 
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #d46209; 
+}
+
+/* Botão secundário */
+.btn-secondary {
+  background-color: #000000; 
+  color: #ffffff; 
+}
+
+.btn-secondary:hover {
+  background-color: #333333; 
+}
+
+
+.image-container img {
+  margin-top: 5em;
+  width: auto;
+  height: auto;
+  max-width: 110%; 
+  max-height: 110%; 
+}
