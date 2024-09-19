@@ -27,6 +27,16 @@ h1,h2,h3,h2,p,nav{
   .nav-right .btn {
     padding: 0.5rem 1rem; 
   }
-  
 
+  .btn-logout {
+    color: #ffffff;
+    border: none;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1em;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
   

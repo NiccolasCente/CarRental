@@ -30,7 +30,6 @@ const Header: React.FC = () => {
     <header className="header py-2">
       <Container>
         <div className="d-flex align-items-center justify-content-between">
-          {/* Logo */}
           <div className="logo">
             <img src={Logo} alt="Logo" className="img-fluid logo-img" />
           </div>
@@ -53,10 +52,10 @@ const Header: React.FC = () => {
               </>
             ) : (
               <>
-                <Button variant="outline-secondary" onClick={() => setShowProfileModal(true)}>
+                <Button className="btn-custom" onClick={() => setShowProfileModal(true)}>
                   <FaUserCircle />
                 </Button>
-                <Button variant="outline-secondary" onClick={handleLogout}>
+                <Button  className="btn-logout"  onClick={handleLogout}>
                   Logout
                 </Button>
               </>
