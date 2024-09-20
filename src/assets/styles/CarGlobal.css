@@ -1,0 +1,20 @@
+.car-image {
+    width: 100%; /* Ajusta a largura da imagem para 100% do seu contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 300px; /* Define um tamanho máximo para a imagem */
+    border-radius: 8px; /* Arredonda os cantos da imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para um efeito de profundidade */
+  }
+  
+  .car-list {
+    display: flex; /* Alinha os itens em linha */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin: 20px 0; /* Adiciona margem superior e inferior */
+  }
+  
+  .car-list-item {
+    margin: 10px; /* Espaço entre os itens da lista */
+    text-align: center; /* Centraliza o texto do item */
+  }
+  

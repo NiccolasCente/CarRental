@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import CarReservation from "./components/Section/CarReservation";
 import TravelPlanning from "./components/Section/TravelPlanning";
+import CarRentalPage from "./components/Section/CarRentalPage";
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <Main />
       <CarReservation />
       <TravelPlanning />
+      <CarRentalPage />
     </>
   )
 }
