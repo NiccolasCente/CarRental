@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import CarReservation from "./components/Section/CarReservation";
+import TravelPlanning from "./components/Section/TravelPlanning";
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Main />
       <CarReservation />
+      <TravelPlanning />
     </>
   )
 }
