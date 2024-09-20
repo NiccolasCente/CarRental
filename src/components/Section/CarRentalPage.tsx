@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Cars } from './Cars'; // Importa seu array de carros
+import { Cars } from './Cars'; 
 import CarList from './CarList';
 import CarImage from './CarImage';
 import CarDetails from './CarDetails';
-import { Car } from './Cars'; // Importa a interface Car
+import { Car } from './Cars'; 
 
 const CarRentalPage: React.FC = () => {
-  const [selectedCar, setSelectedCar] = useState<Car | null>(null); // Corrigido aqui
+  const [selectedCar, setSelectedCar] = useState<Car | null>(null); 
 
   return (
     <section>
@@ -15,7 +15,7 @@ const CarRentalPage: React.FC = () => {
         <Row className="text-center">
           <Col>
             <h4>Disponível para Aluguel</h4>
-            <h2>Escolha Seu Carro</h2>
+            <h1>Escolha Seu Carro</h1>
             <p>Selecione um carro da lista abaixo:</p>
           </Col>
         </Row>

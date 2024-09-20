@@ -1,20 +1,71 @@
-.car-image {
-    width: 100%; /* Ajusta a largura da imagem para 100% do seu contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    max-width: 300px; /* Define um tamanho máximo para a imagem */
-    border-radius: 8px; /* Arredonda os cantos da imagem */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra para um efeito de profundidade */
-  }
-  
-  .car-list {
-    display: flex; /* Alinha os itens em linha */
-    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    margin: 20px 0; /* Adiciona margem superior e inferior */
+.car-list {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin: 20px 0; 
   }
   
   .car-list-item {
-    margin: 10px; /* Espaço entre os itens da lista */
-    text-align: center; /* Centraliza o texto do item */
+    margin: 10px; 
+    text-align: center; 
+  }
+  .custom-list-item {
+    background-color: #E37310; 
+    color: #ffffff; 
+    border: none; 
+    font-family: "Cabin", sans-serif; 
+    font-weight: bold; 
+    font-style: italic; 
+    cursor: pointer; 
+    margin-bottom: 10px; 
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out; 
   }
   
+  .custom-list-item:hover {
+    background-color: #d2620f; 
+    transform: translateY(-5px); 
+  }
+  
+  .custom-list-item.active {
+    transform: translateY(-5px); 
+    background-color: #d2620f; 
+  }
+
+.car-details-table {
+  background-color: #E37310 !important;
+  color: #ffffff !important;
+  border: none;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.car-details-table td, 
+.car-details-table th {
+  background-color: #E37310 !important; 
+  color: #ffffff !important;
+  border-color: #ffffff !important; 
+}
+
+.car-details-header {
+  background-color: #e37310 !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.car-reserve-button {
+  background-color: #E37310 !important;
+  color: #000000 !important;
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  border: none;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.car-reserve-button:hover {
+  background-color: #cf680e !important;
+}
+

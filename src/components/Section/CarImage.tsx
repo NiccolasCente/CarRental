@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
 import { Car } from './Cars';
-import '../../assets/styles/CarGlobal.css'; // Importe o CSS
+import '../../assets/styles/CarGlobal.css'; 
 
 interface CarImageProps {
   car: Car | null;

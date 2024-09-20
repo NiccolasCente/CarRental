@@ -1,6 +1,7 @@
 import React from 'react';
 import { Table, Button } from 'react-bootstrap';
 import { Car } from './Cars';
+import '../../assets/styles/CarGlobal.css';
 
 interface CarDetailsProps {
   car: Car | null;
@@ -11,10 +12,10 @@ const CarDetails: React.FC<CarDetailsProps> = ({ car }) => {
     <div>
       {car && (
         <>
-          <Table striped bordered hover>
+          <Table striped bordered hover className="car-details-table">
             <tbody>
               <tr>
-                <td colSpan={2} className="text-center">
+                <td colSpan={2} className="text-center car-details-header">
                   Aluguel do Carro: 140 reais por dia
                 </td>
               </tr>
@@ -44,7 +45,9 @@ const CarDetails: React.FC<CarDetailsProps> = ({ car }) => {
               </tr>
             </tbody>
           </Table>
-          <Button variant="primary">Reservar Agora</Button>
+          <Button className="car-reserve-button" variant="primary">
+            Reservar Agora
+          </Button>
         </>
       )}
     </div>
