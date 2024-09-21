@@ -8,6 +8,8 @@ import Main from "./components/Main/Main";
 import CarReservation from "./components/Section/CarReservation";
 import TravelPlanning from "./components/Section/TravelPlanning";
 import CarRentalPage from "./components/Section/CarRentalPage";
+import AboutUs from "./components/Section/AboutUs";
+import Testimonials from "./components/Section/Testimonials";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <CarReservation />
         <TravelPlanning />
         <CarRentalPage />
+        <AboutUs />
+        <Testimonials />
       </>
     </Router>
   );

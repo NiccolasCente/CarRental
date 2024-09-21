@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+#aboutUs-section{
+    margin-top: 8em;
+}
+
+
+.icon-image {
+    width: 80px; 
+}
+
+.image-spacing {
+    margin-bottom: 20px; 
+}
+
+
+
+
+@media (min-width: 768px) {
+    .row.align-items-center {
+        height: auto; 
+    }
+}
+
+
+
