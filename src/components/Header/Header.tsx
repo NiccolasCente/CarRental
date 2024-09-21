@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Nav, Button } from "react-bootstrap";
+import { Link } from "react-scroll"; 
 import Logo from "../../assets/HeaderImages/car rental ts.png";
 import LoginButton from "./LoginButton";
 import CreateAccountButton from "./CreateAccountButton";
@@ -36,11 +37,21 @@ const Header: React.FC = () => {
 
           {/* Navegação Central */}
           <Nav className="nav-center">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#sobre">Sobre</Nav.Link>
-            <Nav.Link href="#modelos">Modelos de Veículos</Nav.Link>
-            <Nav.Link href="#depoimentos">Depoimentos</Nav.Link>
-            <Nav.Link href="#contato">Contato</Nav.Link>
+            <Link to="home" smooth={true} duration={500}>
+              <Nav.Link href="#home">Home</Nav.Link>
+            </Link>
+            <Link to="aboutUs-section" smooth={true} duration={500}>
+              <Nav.Link href="#sobre">Sobre</Nav.Link>
+            </Link>
+            <Link to="modelos" smooth={true} duration={500}>
+              <Nav.Link href="#modelos">Modelos de Veículos</Nav.Link>
+            </Link>
+            <Link to="testimonials" smooth={true} duration={500}>
+              <Nav.Link href="#depoimentos">Depoimentos</Nav.Link>
+            </Link>
+            <Link to="contato" smooth={true} duration={500}>
+              <Nav.Link href="#contato">Contato</Nav.Link>
+            </Link>
           </Nav>
 
           {/* Login e Criar Conta */}
@@ -55,7 +66,7 @@ const Header: React.FC = () => {
                 <Button className="btn-custom" onClick={() => setShowProfileModal(true)}>
                   <FaUserCircle />
                 </Button>
-                <Button  className="btn-logout"  onClick={handleLogout}>
+                <Button className="btn-logout" onClick={handleLogout}>
                   Logout
                 </Button>
               </>
